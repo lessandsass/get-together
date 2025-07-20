@@ -12,9 +12,9 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+    
 nav {
-    background-color: white;
+    background-color: #F3DCA5;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -36,11 +36,11 @@ nav a {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: black;
+    color: #7E5D11;
 }
 
 nav a:hover {
-    background-color: #f0f0f0;
+    background-color: #EECD81;
 }
 
 nav li:first-child {
@@ -54,7 +54,7 @@ nav li:first-child {
     height: 100vh;
     width: 200px;
     z-index: 99;
-    background-color: white;
+    background-color: #F3DCA5;
     backdrop-filter: blur(10px);
     box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1);
     display: none;
@@ -74,11 +74,11 @@ nav li:first-child {
     text-decoration: none;
     display: flex;
     align-items: center;
-    color: black;
+    color: #7E5D11;
 }
 
 .sidebar a:hover {
-    background-color: #f0f0f0;
+    background-color: #EECD81;
 }
 
 
