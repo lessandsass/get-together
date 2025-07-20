@@ -6,6 +6,11 @@
     
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header {
+    display: block;
     min-height: 100vh;
     background-image: url(hero.jpg);
     background-size: cover;
@@ -13,9 +18,10 @@ body {
     background-repeat: no-repeat;
 }
 
-nav {
+.nav-bar {
     background-color: #F3DCA5;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    display: block;
 }
 
 nav ul {
@@ -100,6 +106,15 @@ nav li:first-child {
     }
 }
 
+main {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.image-gallery-nav {
+    display: block;
+}
 
 
 
